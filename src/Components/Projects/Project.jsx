@@ -4,9 +4,9 @@ const Project = ({ project }) => {
   const { name, img, description, live, code, technologies } = project;
 
   return (
-    <div className="card bg-base-100 shadow-xl p-2 rounded-lg">
+    <div className="card bg-base-100 shadow-xl p-10 rounded-lg">
       <figure>
-        <img src={img} alt={name} className="w-full h-40 object-cover mb-4 rounded-md" />
+        <img src={img} alt={name} className="w-full h-64 object-cover mb-4 rounded-md" />
       </figure>
       <div className="card-body">
         <h2 className="card-title text-xl font-bold mb-2">{name}</h2>

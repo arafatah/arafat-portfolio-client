@@ -53,8 +53,8 @@ const Navbar = () => {
       </div>
       <div className="navbar-end">
         <div className="flex gap-5">
-            <a className="text-2xl" href="#"><FaGithub /></a>
-            <a className="text-2xl" href="#"><FaLinkedin /></a>
+            <a className="text-2xl" href="https://github.com/arafatah"><FaGithub /></a>
+            <a className="text-2xl" href="https://www.linkedin.com/in/md-arafat-howlader-688a39183/"><FaLinkedin /></a>
           
           
         </div>
