@@ -45,7 +45,7 @@ const Navbar = () => {
           </ul>
         </div>
         <a className="btn btn-ghost text-xl">
-          <DiCssdeck /> <span>Arafat</span>
+          < DiCssdeck  className="text-2xl"/> <span>Arafat Portfolio</span>
         </a>
       </div>
       <div className="navbar-center hidden lg:flex">
