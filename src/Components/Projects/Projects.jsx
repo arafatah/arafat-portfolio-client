@@ -20,106 +20,49 @@ const Projects = () => {
     },
 
     {
-      name: "Ema-john",
-      img: "https://i.ibb.co/8rYQXzR/ema-john.png",
+      name: "TRAVOL - A TRAVEL GUIDE PLATFORM",
+      img: "https://i.ibb.co/Jzrk39q/Screenshot-2023-12-11-012456.png",
       description:
-        "A full-stack e-commerce website with firebase authentication, stripe payment gateway, and dashboard functionality for admin and user.",
-      live: "https://ema-john-simple-6b1b6.web.app/",
-      code: "Hello.com",
+        "TRAVOL, your ultimate travel guide platform, beckons with a triple-tiered login system for admins, tour guides, and tourists. Packed with myriad features, it's your gateway to seamless and enriched travel experiences.",
+      live: "https://travel-with-arafat.netlify.app/",
+      code: "https://github.com/arafatah/travel-guide-client",
       technologies: [
         "React",
         "Node",
         "Express",
-        "MongoDB",
+        "daisyUI",
         "Firebase",
-        "Stripe",
-        "Bootstrap",
-        "Material-UI",
-        "Heroku",
       ],
     },
 
     {
-      name: "Ema-john",
-      img: "https://i.ibb.co/8rYQXzR/ema-john.png",
+    name: "LOVE-ME - A WEEDING MANAGEMENT WEBSITE",
+      img: "https://i.ibb.co/QQy9YG3/Screenshot-2023-12-11-013002.png",
       description:
-        "A full-stack e-commerce website with firebase authentication, stripe payment gateway, and dashboard functionality for admin and user.",
-      live: "https://ema-john-simple-6b1b6.web.app/",
-      code: "Hello.com",
+      "Elevate your wedding planning with our sophisticated platform built on React, JavaScript, and Firebase. Seamlessly manage every detail, from guest lists to vendor coordination, ensuring a stress-free and memorable celebration.",
+      live: "https://wedding-event-management-70063.web.app",
+      code: "https://github.com/arafatah/event-managment-client",
       technologies: [
         "React",
         "Node",
-        "Express",
-        "MongoDB",
         "Firebase",
-        "Stripe",
-        "Bootstrap",
-        "Material-UI",
-        "Heroku",
       ],
     },
 
     {
-      name: "Ema-john",
-      img: "https://i.ibb.co/8rYQXzR/ema-john.png",
+      name: "CAR-SELLING - A WEBSITE FOR CAR SELLING",
+      img: "https://i.ibb.co/5rs6PHb/Screenshot-2023-12-11-014318.png",
       description:
-        "A full-stack e-commerce website with firebase authentication, stripe payment gateway, and dashboard functionality for admin and user.",
-      live: "https://ema-john-simple-6b1b6.web.app/",
-      code: "Hello.com",
+      "Revolutionize your car buying experience with our dynamic platform. Powered by React and JavaScript, explore a vast inventory, streamline sales, and find your dream car effortlessly.",
+      live: "https://car-selling-001.web.app/",
+      code: "https://github.com/arafatah/car-selling-brand-cleint",
       technologies: [
-        "React",
+        "javascript",
         "Node",
-        "Express",
-        "MongoDB",
+        "React",
         "Firebase",
-        "Stripe",
-        "Bootstrap",
-        "Material-UI",
-        "Heroku",
       ],
     },
-
-    {
-      name: "Ema-john",
-      img: "https://i.ibb.co/8rYQXzR/ema-john.png",
-      description:
-        "A full-stack e-commerce website with firebase authentication, stripe payment gateway, and dashboard functionality for admin and user.",
-      live: "https://ema-john-simple-6b1b6.web.app/",
-      code: "Hello.com",
-      technologies: [
-        "React",
-        "Node",
-        "Express",
-        "MongoDB",
-        "Firebase",
-        "Stripe",
-        "Bootstrap",
-        "Material-UI",
-        "Heroku",
-      ],
-    },
-
-    {
-      name: "Ema-john",
-      img: "https://i.ibb.co/8rYQXzR/ema-john.png",
-      description:
-        "A full-stack e-commerce website with firebase authentication, stripe payment gateway, and dashboard functionality for admin and user.",
-      live: "https://ema-john-simple-6b1b6.web.app/",
-      code: "Hello.com",
-      technologies: [
-        "React",
-        "Node",
-        "Express",
-        "MongoDB",
-        "Firebase",
-        "Stripe",
-        "Bootstrap",
-        "Material-UI",
-        "Heroku",
-      ],
-    },
-
-    
   ];
   return (
     <div className="max-w-screen-xl mx-auto p-6 mt-14">

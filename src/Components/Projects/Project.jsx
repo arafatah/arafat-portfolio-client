@@ -19,7 +19,7 @@ const Project = ({ project }) => {
             Code
           </a>
         </div>
-        <div className="mt-4 flex space-x-2">
+        <div className="mt-4 space-x-2 flex flex-wrap">
           {technologies.map((tech, index) => (
             <span key={index} className="badge badge-outline">
               {tech}
