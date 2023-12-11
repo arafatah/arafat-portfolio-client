@@ -3,7 +3,7 @@ import { MdOutlineDesignServices } from "react-icons/md";
 
 const Technologies = () => {
     return (
-        <div className="max-w-screen-xl mx-auto p-6 mt-14">
+        <div className="max-w-screen-xl mx-auto p-6 mt-10">
             <div className="">
                 <h1 className="text-3xl font-bold mb-4">Technologies</h1>
                 <p className="text-lg text-gray-500">
