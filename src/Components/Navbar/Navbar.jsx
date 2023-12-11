@@ -1,19 +1,24 @@
-import React from "react";
 import { DiCssdeck } from "react-icons/di";
 import { FaGithub, FaLinkedin } from "react-icons/fa";
 import { Link } from "react-router-dom";
-
+import { Link as ScrollLink, animateScroll as scroll } from "react-scroll";
 const Navbar = () => {
   const NavLink = (
     <>
       <li>
-        <Link>Projects</Link>
+        <ScrollLink to="projects" spy={true} smooth={true} duration={500}>
+          Projects
+        </ScrollLink>
       </li>
       <li>
-        <Link>technologies</Link>
+        <ScrollLink to="technologies" spy={true} smooth={true} duration={500}>
+          Technologies
+        </ScrollLink>
       </li>
       <li>
-        <Link>About</Link>
+        <ScrollLink to="about" spy={true} smooth={true} duration={500}>
+          About
+        </ScrollLink>
       </li>
     </>
   );
@@ -44,19 +49,24 @@ const Navbar = () => {
             {NavLink}
           </ul>
         </div>
-        <a className="btn btn-ghost text-xl">
-          < DiCssdeck  className="text-2xl"/> <span>Arafat Portfolio</span>
+        <a href="/" className="btn btn-ghost text-xl">
+          <DiCssdeck className="text-2xl" /> <span>Arafat's Portfolio</span>
         </a>
       </div>
       <div className="navbar-center hidden lg:flex">
         <ul className="menu menu-horizontal px-1">{NavLink}</ul>
       </div>
       <div className="navbar-end">
-        <div className="flex gap-5">
-            <a className="text-2xl" href="https://github.com/arafatah"><FaGithub /></a>
-            <a className="text-2xl" href="https://www.linkedin.com/in/md-arafat-howlader-688a39183/"><FaLinkedin /></a>
-          
-          
+        <div className="flex gap-5 z-10">
+          <Link to='https://github.com/arafatah' className="text-2xl">
+            <FaGithub />
+          </Link>
+          <a
+            className="text-2xl"
+            href="https://www.linkedin.com/in/md-arafat-howlader-688a39183"
+          >
+            <FaLinkedin />
+          </a>
         </div>
       </div>
     </div>
