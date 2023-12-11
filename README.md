@@ -17,9 +17,9 @@ I am Arafat Howlader, a passionate MERN stack developer with a focus on creating
 
 Explore the various projects I've worked on. Each project comes with a detailed description, live demo link, and source code link.
 
-- [Project 1](#) - A brief description of the project.
-- [Project 2](#) - Another exciting project with key features.
-- ...
+- [FASHION](https://shop-auth-5d9ec.web.app/) - FashionSwap, a full-stack e-commerce marvel, seamlessly integrates Firebase authentication and Stripe payment gateway. Elevating the experience, it features admin and user dashboards, ensuring secure, stylish exchanges in the realm of sustainable fashion..
+- [TRAVOL](https://travel-with-arafat.netlify.app/) - TRAVOL, your ultimate travel guide platform, beckons with a triple-tiered login system for admins, tour guides, and tourists. Packed with myriad features, it's your gateway to seamless and enriched travel experiences.
+- [LOVE-ME](https://wedding-event-management-70063.web.app) - Elevate your wedding planning with our sophisticated platform built on React, JavaScript, and Firebase. Seamlessly manage every detail, from guest lists to vendor coordination, ensuring a stress-free and memorable celebration.
 
 ## Technologies
 
