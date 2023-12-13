@@ -1,4 +1,5 @@
 import { AiFillPhone, AiOutlineMail } from "react-icons/ai";
+import ContactForm from "./ContactForm";
 
 const ContactSection = () => (
   <div className="max-w-screen-xl mx-auto p-6 mt-10">
@@ -9,9 +10,9 @@ const ContactSection = () => (
         If you have any questions, please feel free to contact me.
       </p>
       <div className="flex flex-col md:flex-row md:items-center gap-4 md:gap-8 pl-7">
-        {/** Call Section */}
+        {/* Call Section */}
         <div
-          className="flex flex-col  group cursor-pointer"
+          className="flex flex-col group cursor-pointer"
           onClick={() => (window.location.href = "tel:+8801303075677")}
         >
           <span className="flex text-3xl gap-4 mb-2 transition duration-300 group-hover:text-blue-500">
@@ -34,6 +35,10 @@ const ContactSection = () => (
           <span className="text-base hover:text-blue-500 md:text-base mt-4 md:mt-0">
             arafathoalder456@gmail.com
           </span>
+        </div>
+        {/* Contact Form */}
+        <div className="flex w-full flex-col">
+          <ContactForm />
         </div>
       </div>
     </div>

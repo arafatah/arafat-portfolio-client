@@ -27,7 +27,7 @@ const Technologies = () => {
                 <MdOutlineDesignServices className="text-2xl"/>
 
                     <h2 className="text-2xl font-semibold mb-2">UI/UX</h2>
-                    <p>Responsive Design, User-Centric Approach, Figma</p>
+                    <p>Responsive Design,Figma(ReadOnly)</p>
                 </div>
             </div>
         </div>
